@@ -1,0 +1,6 @@
+In JavaScript, "use strict" is a pragma that enables strict mode for a specific block of code or an entire JavaScript file. Strict mode is a set of rules and restrictions that help developers write cleaner and safer JavaScript code by catching common coding mistakes and preventing the use of potentially problematic language features.
+
+# difference between let and var
+
+var: Variables declared with var are function-scoped. This means they are visible throughout the entire function in which they are declared, regardless of block boundaries. If declared outside any function, they become global variables.
+let: Variables declared with let are block-scoped. They are only accessible within the block (a pair of curly braces) in which they are declared. This makes let more predictable and less prone to unintended side effects.
